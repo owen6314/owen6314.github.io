@@ -1,0 +1,14 @@
+---
+layout: index
+---
+
+<ul class="posts">
+  {% for project in site.data.projects %}
+  <li class="post post-header">
+    <a href="{{ project.url }}" target="_blank" class="post-link post-title">
+      {{ project.title }}<br />
+    </a>
+        <p>{{ project.description }}</p>
+  </li>
+  {% endfor %}
+</ul>
