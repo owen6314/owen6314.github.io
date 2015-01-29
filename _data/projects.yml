@@ -1,9 +1,6 @@
 - title: Packet Analyser 
   url: //github.com/EUTS/packet-sniffer
-  description: "An implementation of a packet analyzer that can be improved on.
-   A packet analyzer (sniffer) is a program that intercepts the traffic passing through a network interface. 
-   In this project, a packet sniffer would be implemented using the libpcap library."
-
+  description: "An implementation of a packet analyzer that can be improved on. A packet analyzer (sniffer) is a program that intercepts the traffic passing through a network interface. In this project, a packet sniffer would be implemented using the libpcap library."
  - title: Efficient filtring technique based on adaptive rate sampling
   url: https://haneensa.github.io/capstone/
   description: Graduation project. The aim of this project is to implement an event based sampling on FPGA and matlab.
