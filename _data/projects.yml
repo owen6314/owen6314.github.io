@@ -3,4 +3,4 @@
   description: Graduation project. The aim of this project is to implement an event based sampling on FPGA and matlab.
 - title: CPU
   url: https://github.com/haneensa/CPU
-  description: "In this project, a 32-bit non-pipelined processor was design and implementation using VHDL. The processor is tested using a program stored in an instruction memory of type ROM (Read Only Mem- ory). "
+  description: "In this project, a 32-bit non-pipelined processor was design and implementated using VHDL. The processor is tested using a program stored in an instruction memory of type ROM (Read Only Mem- ory). "
