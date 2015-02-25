@@ -5,7 +5,6 @@ layout: about
 **Haneen**<br />
 Soon to be graduate from Electrical  and Computer Engineering school.
 
-Currently undefined.
 
 ---
 
