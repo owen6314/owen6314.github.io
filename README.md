@@ -1,4 +1,4 @@
-# A blog
+# Personal blog
 
-## Theme
+### Theme
 Base theme by :wave: [@muanchiou](http://twitter.com/muanchiou)
