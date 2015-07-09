@@ -43,9 +43,9 @@ a {
     .instagram .img.show {
       opacity: 1; }
   .instagram .img, .instagram img {
-    border-radius: 200px;
-    width: 140px;
-    height: 140px; }
+    # border-radius: 100px;
+    width: 100px;
+    height: 100px; }
 
 .wrapper {
   max-width: 700px;
