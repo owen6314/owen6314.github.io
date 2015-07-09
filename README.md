@@ -1,4 +1,5 @@
 # Personal blog
+```
 .
 +-- _config.yml
 +-- _drafts
@@ -15,6 +16,6 @@
 |   +-- projects.yml
 +-- _site
 +-- index.html
-
+```
 ### Theme
 Base theme by :wave: [@muanchiou](http://twitter.com/muanchiou)
