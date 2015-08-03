@@ -409,3 +409,13 @@ pre code, pre tt {
   border: 0; }
   pre code:before, pre code:after, pre tt:before, pre tt:after {
     content: normal; }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
