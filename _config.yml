@@ -2,4 +2,4 @@ title:            "Haneen"
 url:              http://haneensa.github.io
 permalink:        pretty
 highlighter:      pygments
-maarkdown:         kramdowan
+maarkdown:        redcarpet 
