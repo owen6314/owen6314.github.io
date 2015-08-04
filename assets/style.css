@@ -410,12 +410,14 @@ pre code, pre tt {
   pre code:before, pre code:after, pre tt:before, pre tt:after {
     content: normal; }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: left;
-}
-
+table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all; }
+  table th {
+    font-weight: bold; }
+  table th, table td {
+    padding: 0.5rem 1rem;
+    border: 1px solid #e9ebec; }
