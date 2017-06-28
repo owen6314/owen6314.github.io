@@ -1,5 +1,5 @@
 title:            "Haneen"
 url:              http://haneensa.github.io
 permalink:        pretty
-highlighter:      pygments
+highlighter:      rouge
 maarkdown:        redcarpet 
