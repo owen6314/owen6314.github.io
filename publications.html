@@ -1,0 +1,15 @@
+---
+layout: index
+---
+
+<ul class="posts">
+  {% for pub in site.data.publications %}
+  <li class="post post-header">
+      <h3 align=left><a href="{{ pub.url }}" target="_blank" class="post-link post-title">
+              {{ pub.title }}<br /></h3>
+    </a>
+    <p align=left>{{ pub.auth }}</p>
+    <p align=left>{{ pub.where }}</p>
+  </li>
+  {% endfor %}
+</ul>
