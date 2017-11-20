@@ -7,6 +7,3 @@
 - title: CPU
   url: https://github.com/haneensa/CPU
   description: "In this project, a 32-bit non-pipelined processor was design and implemented using VHDL. The processor is tested using a program stored in an instruction memory of type ROM (Read Only Mem- ory). "
-- title: Efficient filtring technique based on adaptive rate sampling
-  url: https://haneensa.github.io/capstone/
-  description: Graduation project. The aim of this project is to implement an event based sampling on FPGA and matlab.
