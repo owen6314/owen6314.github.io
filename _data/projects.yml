@@ -6,4 +6,4 @@
   description: "A simple program that intercepts the traffic passing through a network interface."
 - title: CPU
   url: https://github.com/haneensa/CPU
-  description: "In this project, a 32-bit non-pipelined processor was design and implemented using VHDL. The processor is tested using a program stored in an instruction memory of type ROM (Read Only Mem- ory). "
+  description: "In this project, a 32-bit non-pipelined processor was design and implemented using VHDL. The processor is tested using a program stored in an instruction memory. "
