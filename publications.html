@@ -7,21 +7,22 @@ layout: index
   <li class="post post-header">
       <h3 align=left>
       
-    {% if pub.url  !=null %}
-          <a href="{{ pub.url }}" target="_blank" class="post-link post-title">
-              {{ pub.title }}<br /></a>
+    {% if pub.url != null %}
+        <a href="{{ pub.url }}" target="_blank" class="post-link post-title">
+              {{ pub.title }}<br/>
+	</a>
     {% else %}
-              {{ pub.title }}<br />
+        {{ pub.title }}<br/>
     {% endif %}
       
       </h3>
     <p align=left>{{ pub.auth }}</p>
     <p align=left>{{ pub.where }}</p>
     <div align=left>
-    {% if pub.code !=null %}
+    {% if pub.code != null %}
     <a href="{{ pub.code }}" target="_blank">[CODE]</a>
     {% endif %}
-    {% if pub.pdf !=null %}
+    {% if pub.pdf != null %}
     <a href="{{ pub.code }}" target="_blank">[PDF]</a>
     {% endif %}
     </div>
