@@ -20,10 +20,13 @@ layout: index
     <p align=left>{{ pub.where }}</p>
     <div align=left>
     {% if pub.code != null %}
-    <a href="{{ pub.code }}" target="_blank">[CODE]</a>
+	<a href="{{ pub.code }}" target="_blank"><div class="fa fa-code"></div></a>
     {% endif %}
     {% if pub.pdf != null %}
-    <a href="{{ pub.code }}" target="_blank">[PDF]</a>
+	<a href="{{ pub.pdf }}" target="_blank"><div class="fa fa-file"></div></a>
+    {% endif %}
+    {% if pub.video != null %}
+	<a href="{{ pub.video }}" target="_blank"><div class="fa fa-file-video"></div></a>
     {% endif %}
     </div>
   </li>
