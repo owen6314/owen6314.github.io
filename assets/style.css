@@ -52,6 +52,15 @@ a {
   width: 100%;
   margin: auto; }
 
+.container a {
+  text-align: center;
+  display: inline-block;
+  margin-left:5px;
+  margin-right:5px;
+  margin-top:3px;
+  margin-bottom:3px;
+  }
+
 .posts {
   list-style: none;
   padding-left: 0;
@@ -321,20 +330,23 @@ hr {
 .links {
   font-size: 0; }
   .links a {
-    text-transform: uppercase;
-    font-size: 12px;
-    text-align: center;
-    padding: 3px 0;
-    display: inline-block;
-    color: #333;
-    width: 20%;
-    position: relative; }
+	  text-align: center;
+	  display: inline-block;
+	  margin-left:5px;
+	  margin-right:5px;
+	  margin-top:3px;
+	  margin-bottom:3px;
+	  text-transform: uppercase;
+	  font-size: 12px;
+	  color: #333;
+	  width: 20%;
+	  position: relative; 
+}
     .links a:before {
       content: '';
       position: absolute;
       left: 50%;
       margin-left: -3px;
-      margin-top: -25px;
       transition: .4s;
       height: 3px;
       width: 3px;
