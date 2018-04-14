@@ -1,5 +1,15 @@
 charset "UTF-8";
+* {
+  margin: 0;
+}
+
+
+html {
+ height: 100%;
+}
+
 body {
+  height: 100%;
   line-height: 1.65em;
   font-family: Merriweather, serif;
   font-weight: 400;
@@ -49,8 +59,18 @@ a {
 
 .wrapper {
   max-width: 700px;
-  width: 100%;
-  margin: auto; }
+  min-height: 100%;
+  margin: 0 auto -80px; }
+.wrapper:after {
+	content: "";
+	display: block;
+}
+
+.site-footer, .wrapper:after {
+  height: 80px;
+  text-align: center; 
+  font-size: 11px;
+}
 
 .container a {
   text-align: center;
@@ -199,11 +219,6 @@ article h3 {
     width: 7px;
     border-radius: 10px; }
 
-.site-footer {
-  font-size: 11px;
-  padding: 30px 30px 50px;
-  text-align: center; }
-
 .pagination {
   position: relative;
   margin: auto;
@@ -287,49 +302,10 @@ hr {
     padding: 1px 3px;
     background: #fff;
     display: inline-block; }
-
-.fork-me {
-  padding: 5px 35px 3px 10px;
-  color: #fff;
-  text-align: center;
-  background: #333;
-  position: absolute;
-  right: 0;
-  top: 30px;
-  font-size: 12px;
-  overflow: hidden;
-  transition: all .3s; }
-  .fork-me:before, .fork-me:after {
-    transition: all .3s;
-    content: '';
-    display: block;
-    position: absolute; }
-  .fork-me:hover:before, .fork-me:hover:after {
-    right: 15px; }
-  .fork-me:before {
-    width: 10px;
-    height: 7px;
-    border: 1px solid #eee;
-    border-left: 0;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    top: 12px;
-    right: 10px; }
-  .fork-me:after {
-    height: 1px;
-    width: 47px;
-    background: #eee;
-    top: 12px;
-    right: 10px;
-    margin-top: 4px;
-    margin-right: -36px; }
-
 .about {
   text-align: center; }
 
-.links {
-  font-size: 0; }
-  .links a {
+.about a {
 	  text-align: center;
 	  display: inline-block;
 	  margin-left:5px;
@@ -339,10 +315,9 @@ hr {
 	  text-transform: uppercase;
 	  font-size: 12px;
 	  color: #333;
-	  width: 20%;
-	  position: relative; 
+	  width:20%;
 }
-    .links a:before {
+    .about a:before {
       content: '';
       position: absolute;
       left: 50%;
@@ -354,7 +329,7 @@ hr {
       -webkit-transform: rotate(-45deg) skew(-10deg, -10deg);
       -moz-transform: rotate(-45deg) skew(-10deg, -10deg);
       transform: rotate(-45deg) skew(-10deg, -10deg); }
-    .links a:hover:before {
+    .about a:hover:before {
       margin-top: -15px;
       border-bottom-color: #d8badc;
       border-left-color: #d8badc; }
