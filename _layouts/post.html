@@ -7,35 +7,33 @@
 
       {% include header.html %}
 
-      <section class="content">
-        <div class="container">
-          <article>
-            <header class="post-header">
+      <article class="container">
+            <header class="post-teaser">
+		<div class="post-title">{{ page.title }}</div>
+		<div class="pagination">
+		
+		{% if page.previous %}
+		<a class="page-nav previous" {% if page.previous %}href="{{ page.previous.url }}" id="js-previous-post"{% endif %}>
+		&lt;</a>
+		{% endif %}
 
-              <div class="post-title">{{ page.title }}</div>
-              {% if page.date %}
-                <small class="meta">
+		{% if page.date %}
+		<small class="meta">
                   {{ page.date | date_to_string }} -
                   by <a href="https://github.com/haneensa/" target="_blank">Haneen</a>
                 </small>
-                <div class="pagination">
-                  {% if page.previous %}
-                    <a class="page-nav previous" {% if page.previous %}href="{{ page.previous.url }}" id="js-previous-post"{% endif %}>
-                      &lt;
-                    </a>
-                  {% endif %}
-                  {% if page.next %}
-                    <a class="page-nav next" {% if page.next %}href="{{ page.next.url }}" id="js-next-post"{% endif %}>
-                      &gt;
-                    </a>
-                  {% endif %}
-                </div>
-              {% endif %}
+		
+		{% if page.next %}
+		<a class="page-nav next" {% if page.next %}href="{{ page.next.url }}" id="js-next-post"{% endif %}>
+		&gt;
+		</a>
+		{% endif %}
+
+		{% endif %}
+		</div>
             </header>
             {{ content }}
           </article>
-        </div>
-      </section>
 
     </div>
       {% include footer.html %}

@@ -3,3 +3,5 @@ url:              http://haneensa.github.io
 permalink:        pretty
 highlighter:      rouge
 maarkdown:        redcarpet 
+plugins:
+        - jekyll-feed

@@ -4,9 +4,9 @@ layout: index
 
 <ul class="posts">
   {% for post in site.posts %}
-  <li class="post post-header">
-    <a href="{{ post.url }}" class="post-link post-title">
-      {{ post.title }}<br />
+  <li class="post-teaser">
+	<a href="{{ post.url }}">
+       <h2>{{ post.title }}</h2>
       <small class="meta">
         <time>{{ post.date | date_to_string }}</time>
       </small>

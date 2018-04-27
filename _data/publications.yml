@@ -6,6 +6,7 @@
   pdf: https://vcg.seas.harvard.edu/publications/abstractocyte/paper
   video: https://www.youtube.com/watch?v=ARjQ_W97KKI
 - title: "Failure Mitigation in Software Defined Networking Employing Load Type Prediction"
+  url: https://ieeexplore.ieee.org/document/7997295/
   auth: N. Bouacida, A. Alghadhban, S. Alalmaei, H. Mohammed, B. Shihada 
   where: IEEE International Conference on Communications (ICC), 2017
   pdf: http://www.shihada.com/node/publications/ICC_SDN_Mitigation.pdf

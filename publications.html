@@ -4,18 +4,16 @@ layout: index
 
 <ul class="posts">
   {% for pub in site.data.publications %}
-  <li class="post post-header">
-      <h3 align=left>
-      
+  <li class="pub-entry">
     {% if pub.url != null %}
-        <a href="{{ pub.url }}" target="_blank" class="post-link post-title">
-              {{ pub.title }}<br/>
-	</a>
-    {% else %}
+        <a href="{{ pub.url }}" target="_blank">
+     {% else %}
+        <a href="" target="_blank">
         {{ pub.title }}<br/>
     {% endif %}
+    <h3 class="pub-title">{{ pub.title }}</h3>
+	</a>
       
-      </h3>
     <p align=left>{{ pub.auth }}</p>
     <p align=left>{{ pub.where }}</p>
     <div align=left>
