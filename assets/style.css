@@ -482,9 +482,10 @@ pre code:before, pre code:after, pre tt:before, pre tt:after {
 	content: normal; }
 
 table {
+	text-align: center;
 	display: block;
-	width: 100%;
-	overflow: auto;
+	width: 80%;
+	margin:auto;
 	word-break: normal;
 	word-break: keep-all; }
 
@@ -493,4 +494,4 @@ table th {
 	
 table th, table td {
 	padding: 0.5rem 1rem;
-	border: 1px solid #e9ebec; }
+	border: 1px solid #8baad3; }
