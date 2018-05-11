@@ -4,7 +4,7 @@ title: On Self-Compassion
 date: 2018-05-11
 ---
 
-One of the life-changing decisions I made a few years ago is to let go of my ego whenever I see an opportunity that I know would help me grow and learn at any level.
+One of the life-changing decisions I made a few years ago was to let go of my ego whenever I see an opportunity that I know would help me grow and learn at any level.
 That could be anything, like asking for help to prepare for an interview, with a bug in a code, or even just to get around in a new city.
 
 I was amazed at the extent that some people are willing to go to help out.
@@ -25,7 +25,7 @@ Although, I won't say the time spent in debugging was wasted, because I do end u
 and end up feeling embarrassed and ashamed.
 
 As I've caught myself recently going through those feelings, I had to actively practice self-compassion,
-that is different from self-pity in which, you acknowledge your shortcomings, but don't judge or get harsh on yourself.
+which is different from self-pity. You acknowledge your shortcomings, but don't judge or get harsh on yourself.
 On that, I will end up with a note to my future self:
 
 ---
