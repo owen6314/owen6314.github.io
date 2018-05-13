@@ -112,10 +112,16 @@ footer, .wrapper:after {
 /*************/
 
 /* about.html */
-.about {
-	text-align: center; }
+.about-title {
+	text-align: center;
+	font-weight: bold;
+}
 
-.about a {
+.about-nav {
+	text-align: center;
+}
+
+.about-nav a {
 	  text-align: center;
 	  display: inline-block;
 	  margin-left:5px;
@@ -129,7 +135,7 @@ footer, .wrapper:after {
 	  position: relative;
 }
 	
-.about a:before {
+.about-nav a:before {
 	content: '';
 	position: absolute;
 	left: 50%;
@@ -142,7 +148,7 @@ footer, .wrapper:after {
 	-moz-transform: rotate(-45deg) skew(-10deg, -10deg);
 	transform: rotate(-45deg) skew(-10deg, -10deg); }
 	
-.about a:hover:before {
+.about-nav a:hover:before {
 	margin-top: -15px;
 	border-bottom-color: #d8badc;
 	border-left-color: #d8badc; }
