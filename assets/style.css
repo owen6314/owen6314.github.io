@@ -341,12 +341,6 @@ article img {
 	display: block;
 	position: absolute; }
 
-.page-nav:before {
-	width: 6px;
-	left: -30px;
-	height: 2px;
-	border-radius: 4px;
-	background: #333; }
 
 .page-nav:after {
 	height: 1px;
