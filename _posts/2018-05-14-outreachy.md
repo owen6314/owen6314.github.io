@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux Kernel Internship
-date: 2018-05-12
+date: 2018-05-14
 ---
 
 I can't remember exactly how I got introduced to Free &Open Source (FOSS),
