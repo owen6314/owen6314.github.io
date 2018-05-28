@@ -103,7 +103,7 @@ we can use <code>eu-addr2line</code> tool from the <code>elfutils</code> package
 
 <pre>
 $ sudo apt-get instal elfutils
-$ eu-addr2line -e path/to/kernel/tree/drivers/gpu/drm/drm.o drm_atomic_connector_print_start+0xe
+$ eu-addr2line -e ~/kernelsource/drivers/gpu/drm/drm.o drm_atomic_connector_print_start+0xe
 drivers/gpu/drm/drm_atomic.c:1300
 </pre>
 
