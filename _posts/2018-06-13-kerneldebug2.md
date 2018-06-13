@@ -29,20 +29,20 @@ but it doesn't give more details on what's using vkms.
 I have been told that it's probably used by a part of the GUI manager.
 To understand what exactly was using the module, I have stumbled upon an answer in this thread
 [[1]](https://stackoverflow.com/questions/448999/is-there-a-way-to-figure-out-what-is-using-a-linux-kernel-module)
-which explained how Ftrace utility can be used to shed light on the modules dependencies.
+which explained how Ftrace utility could be used to shed light on the modules dependencies.
 
 ---
 ## Ftrace
 
 Ftrace (Function Tracer) is a linux kernel utility that enables tracing kernel function calls.
-Ftrace is not only helpful for debugging, but also to understand how a module works by following function calls order.
+Ftrace is not only helpful for debugging but also to understand how a module works by following the order of function calls.
 
 Reading the documentation file [[2]](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/trace/ftrace.rst)
 and this guide [[3]](https://lwn.net/Articles/365835/), as well as exploring the directory 
 <code>/sys/kernel/debug/tracing</code> was helpful to understand how *ftrace* works and how to use it for debugging
 (to access the directory, super-user privileges needed).
 
-The following use cases shows subset of how to navigate *ftrace* files:
+The following use cases give some overview on how to navigate *ftrace* files:
 
 1) To check if tracing is enabled:
 <div align="center"><code>$ cat /sys/kernel/debug/tracing/tracing_on</code></div>
@@ -68,7 +68,7 @@ is helpful to learn about the available *events* and *functions* that can be tra
 
 ## Ftrace through trace-cmd Tool
 
-Since dealing with Ftrace through the debugfs filesystem is not that convienient,
+Since dealing with Ftrace through the debugfs filesystem is not that convenient,
 there exists a user-space command-line tool for Ftrace that may be easier to use.
 
 <div align="center"><code>$ sudo apt-get install trace-cmd</code></div>
@@ -79,7 +79,7 @@ proper usage of the command.
 
 ---
 
-## Inspect module dependncies with trace-cmd: 
+## Inspecting module dependncies with trace-cmd: 
 
 As
 [[1]](https://stackoverflow.com/questions/448999/is-there-a-way-to-figure-out-what-is-using-a-linux-kernel-module)
@@ -100,7 +100,7 @@ module:module_load
 
 So now we can use **trace-cmd** to understand the module dependencies for *vkms*:
 
-1- Start recording all events associated with module keyword (ex: module_request, module_get, etc.)
+1- Start recording all events associated with **module** keyword (ex: module_request, module_get, etc.)
 <pre>$ sudo trace-cmd record -e module </pre>
 
 2- In another terminal, install the module again. Since the vkms module depends on other modules, I would use modprobe.
@@ -164,7 +164,7 @@ To stop *systemd-login* from using these modules we need to disable the *graphic
 
 Since my machine uses **systemd** instead of **init**
 [[6]](https://www.systutorials.com/239880/change-systemd-boot-target-linux/)
-I can switch to a text mode by changing the *runlevel* or *target*.
+I can switch to a text mode by changing the *runlevel* or its equivelant keyword: *target*.
 
 <pre>
 $ cat /proc/1/status | grep Name
