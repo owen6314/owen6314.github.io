@@ -1,3 +1,6 @@
+- title: "Culling for Extreme-Scale Segmentation Volumes: A Hybrid Deterministic and Probabilistic Approach"
+  auth: J. Beyer, H. Mohammed, A. Al-Awami, M. Agus, H. Pfister, M. Hadwiger
+  where: IEEE SciVis, 2018
 - title: "Abstractrocyte: A Visual Tool for Exploring Nanoscale Astroglial Cells"
   url: https://vcg.seas.harvard.edu/publications/abstractocyte
   auth: H. Mohammed, A. Al-Awami, J. Beyer, C. Cali, P. Magistretti, H. Pfister, M. Hadwiger
