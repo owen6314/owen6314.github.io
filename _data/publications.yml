@@ -1,6 +1,6 @@
 - title: "Culling for Extreme-Scale Segmentation Volumes: A Hybrid Deterministic and Probabilistic Approach"
   url: https://vcg.seas.harvard.edu/publications/hybrid-culling
-  auth: J. Beyer, H. Mohammed, A. Al-Awami, M. Agus, H. Pfister, M. Hadwiger
+  auth: J. Beyer, H. Mohammed, M. Agus, A. Al-Awami, H. Pfister, M. Hadwiger
   where: IEEE SciVis, 2018, to appear
   video: https://youtu.be/ABf0jw1jLUY
 - title: "Abstractrocyte: A Visual Tool for Exploring Nanoscale Astroglial Cells"
