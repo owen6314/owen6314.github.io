@@ -21,6 +21,10 @@ a {
 	text-decoration: none; 
 }
 
+img {
+	width: 100%;
+}
+
 /*header.html*/
 .site-header {
 	text-align: center;
