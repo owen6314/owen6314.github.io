@@ -3,7 +3,7 @@ layout: about
 ---
 
 
-<div class="about-title">Haneen [حنين]</div>
+<div class="about-title">Qianrui Zhang</div>
 
 ---
 

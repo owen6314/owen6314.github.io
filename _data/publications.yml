@@ -1,17 +1,7 @@
-- title: "Culling for Extreme-Scale Segmentation Volumes: A Hybrid Deterministic and Probabilistic Approach"
-  url: https://vcg.seas.harvard.edu/publications/hybrid-culling
-  auth: J. Beyer, H. Mohammed, M. Agus, A. Al-Awami, H. Pfister, M. Hadwiger
-  where: IEEE SciVis, 2018, to appear
-  video: https://youtu.be/ABf0jw1jLUY
-- title: "Abstractrocyte: A Visual Tool for Exploring Nanoscale Astroglial Cells"
-  url: https://vcg.seas.harvard.edu/publications/abstractocyte
-  auth: H. Mohammed, A. Al-Awami, J. Beyer, C. Cali, P. Magistretti, H. Pfister, M. Hadwiger
-  where: IEEE SciVis, 2017
-  code: https://github.com/haneensa/Abstractocyte
-  pdf: https://vcg.seas.harvard.edu/publications/abstractocyte/paper
-  video: https://www.youtube.com/watch?v=ARjQ_W97KKI
-- title: "Failure Mitigation in Software Defined Networking Employing Load Type Prediction"
-  url: https://ieeexplore.ieee.org/document/7997295/
-  auth: N. Bouacida, A. Alghadhban, S. Alalmaei, H. Mohammed, B. Shihada 
-  where: IEEE International Conference on Communications (ICC), 2017
-  pdf: http://www.shihada.com/node/publications/ICC_SDN_Mitigation.pdf
+- title: "none"
+  url: zhangqianrui.cn
+  auth: none
+  where: none
+  code: zhangqianrui.cn
+  pdf: zhangqianrui.cn
+  video: zhangqianrui.cn

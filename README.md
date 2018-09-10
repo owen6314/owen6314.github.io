@@ -11,7 +11,6 @@
 |   +-- default.html
 |   +-- post.html
 +-- _posts
-|   +-- 2009-04-26-barcamp-boston-4-roundup.textile
 +-- _data
 |   +-- projects.yml
 +-- _site
@@ -19,3 +18,4 @@
 ```
 ### Theme
 Base theme by :wave: [@muanchiou](http://twitter.com/muanchiou)
+And by :wave: [@haneensa](https://github.com/haneensa)

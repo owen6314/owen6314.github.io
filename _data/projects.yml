@@ -1,9 +1,3 @@
-- title: Fractals Gallery
-  url: https://haneensa.github.io/fractals/
-  description: "Collection of different fractals"
-- title: Analyzer
-  url: https://github.com/haneensa/analyzer
-  description: "A simple program that intercepts the traffic passing through a network interface."
-- title: CPU
-  url: https://github.com/haneensa/CPU
-  description: "In this project, a 32-bit non-pipelined processor was design and implemented using VHDL. The processor is tested using a program stored in an instruction memory. "
+- title: A
+  url: zhangqianrui.cn
+  description: "test a"
