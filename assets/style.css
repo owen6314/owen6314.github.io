@@ -486,6 +486,10 @@ pre code, pre tt {
 pre code:before, pre code:after, pre tt:before, pre tt:after {
 	content: normal; }
 
+pre .highlight {
+	text-color: black;
+}
+
 table {
 	text-align: center;
 	display: block;
