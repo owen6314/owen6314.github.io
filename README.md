@@ -8,11 +8,12 @@
 |   +-- footer.html
 |   +-- header.html
 +-- _layouts
-|   +-- default.html
 |   +-- post.html
 +-- _posts
 +-- _data
 |   +-- projects.yml
+|   +-- publications.yml
+|   +-- updates.yml
 +-- _site
 +-- index.html
 ```
