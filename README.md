@@ -1,22 +1,33 @@
 # Personal blog
 ```
+Steady(hopefully) official personal blog.
+
+Base theme by :wave: [@muanchiou](http://twitter.com/muanchiou)
+Thanks to [@haneensa](https://github.com/haneensa)
+
+## structure
+
 .
 +-- _config.yml
-+-- _drafts
-|   +-- begin-with-the-crazy-ideas.textile
 +-- _includes
 |   +-- footer.html
+|   +-- head.html
 |   +-- header.html
 +-- _layouts
 |   +-- post.html
+|   +-- index.html
+|   +-- about.html
 +-- _posts
 +-- _data
 |   +-- projects.yml
 |   +-- publications.yml
 |   +-- updates.yml
-+-- _site
-+-- index.html
++-- _site(automatically generated)
++-- index.md
 ```
-### Theme
-Base theme by :wave: [@muanchiou](http://twitter.com/muanchiou)
-And by :wave: [@haneensa](https://github.com/haneensa)
+
+## TODOs
+
+- CV
+- icon
+- 404 page
