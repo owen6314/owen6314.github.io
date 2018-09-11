@@ -1,12 +1,12 @@
 # Personal blog
-```
+
 Steady(hopefully) official personal blog.
 
 Base theme by :wave: [@muanchiou](http://twitter.com/muanchiou)
 Thanks to [@haneensa](https://github.com/haneensa)
 
 ## structure
-
+```
 .
 +-- _config.yml
 +-- _includes
