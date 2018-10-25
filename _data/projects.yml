@@ -1,2 +1,7 @@
-- title: The person did some projects in the past
-  description: "Go to his github for details."
+- title: Gleam
+  url: https://github.com/owen6314/Gleam
+  description: "Course project of Software Engineering(3) in THU, a contest register web application"
+
+- title: Toy FTP
+  url: https://github.com/owen6314/toy_ftp
+  description: "Course project of Architecture of Computer and Network(1) in THU, a toy implementation of FTP server and client"
