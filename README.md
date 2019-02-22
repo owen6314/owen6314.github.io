@@ -27,8 +27,3 @@ Special thanks to [@haneensa](https://github.com/haneensa)
 +-- index.md
 ```
 
-## TODOs
-
-- CV
-- icon
-- 404 page
