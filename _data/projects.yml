@@ -1,3 +1,7 @@
+- title: Precision Interface
+  url: https://cudbg.github.io/lab/precisioninterface
+  description: "A visualization system for generating custom interfaces automatically"
+  
 - title: Gleam
   url: https://github.com/owen6314/Gleam
   description: "Course project of Software Engineering(3) in THU, a contest register web application"
