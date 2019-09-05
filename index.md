@@ -20,7 +20,7 @@ Updates:
 <ul>
   {% for update in site.data.updates %}
   <li>
-[ {{ update.date }} ] {{ update.title }}!
+[ {{ update.date }} ] {{ update.title }}
   </li>
   {% endfor %}
 </ul>
