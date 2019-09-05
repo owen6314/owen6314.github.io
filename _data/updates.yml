@@ -1,10 +1,12 @@
-- title: I start my M.S. of Computer Science at Columbia University!
+- title: I started my M.S. of Computer Science at Columbia University!
   date: 8.10.2019 
 - title: I graduated from Tsinghua University!
   date: 7.7.2019
-- title: Our paper Mining Precision Interfaces from Query Logs was presented at SIGMOD '19!
+- title: Our paper <a href="https://dl.acm.org/citation.cfm?id=3319872">Mining Precision Interfaces from Query Logs</a> was presented at <a href="https://sigmod2019.org/">SIGMOD '19</a>!
   date: 7.5.2019
-- title: I start my internship at <a href=https://www.sensetime.com/en/>Sensetime</a>!
+- title: I started my internship at <a href="https://www.sensetime.com/en/">Sensetime</a>. That'll be my first job!
   date: 4.10.2019
+- title: I was awarded China National Scholarship!
+  date: 9.1.2018
 
 
