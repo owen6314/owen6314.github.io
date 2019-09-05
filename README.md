@@ -1,10 +1,10 @@
-# Personal blog
+# Personal Webpage
 
-Steady(hopefully) official personal blog.
+My personal webpage as **Owen**.
 
-Base theme by :wave: [@muanchiou](http://twitter.com/muanchiou)
+Base theme by: [@muanchiou](http://twitter.com/muanchiou)
 
-Special thanks to [@haneensa](https://github.com/haneensa)
+Special thanks to [@haneensa](https://github.com/haneensa), from who I got this template and learned how to run it.
 
 ## structure
 ```
