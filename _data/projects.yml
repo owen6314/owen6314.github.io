@@ -12,4 +12,4 @@
 
 - title: Toy FTP
   url: https://github.com/owen6314/toy_ftp
-  description: "Course project of Computer Network in THU, a C++ implementation of FTP server and client"
+  description: "A C++ implementation of FTP server and client"
