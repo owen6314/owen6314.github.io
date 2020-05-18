@@ -1,11 +1,15 @@
 - title: Precision Interface
   url: https://cudbg.github.io/lab/precisioninterface
   description: "A visualization system for generating custom interfaces automatically"
+
+- title: Asset Allocation and Recommendation (US)
+  url: https://github.com/owen6314/asset-allocation
+  description: "An RL-based asset allocation and recommendation system on AWS"
   
 - title: Gleam
   url: https://github.com/owen6314/Gleam
-  description: "Course project of Software Engineering(3) in THU, a contest register web application"
+  description: "A contest register web application using Django and jQuery"
 
 - title: Toy FTP
   url: https://github.com/owen6314/toy_ftp
-  description: "Course project of Architecture of Computer and Network(1) in THU, a toy implementation of FTP server and client"
+  description: "Course project of Computer Network in THU, a C++ implementation of FTP server and client"
