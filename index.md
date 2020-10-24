@@ -9,7 +9,7 @@ layout: about
 
 <div class="about-nav">
 <a href="https://github.com/owen6314" target="_blank">GitHub</a>
-<a href="https://drive.google.com/file/d/1IRQExna0gWKOf4UkZj91Ma0iXc38yxOV/view?usp=sharing" target="_blank">Resume</a>
+<a href="https://www.linkedin.com/in/zhangqianrui/" target="_blank">Resume</a>
 </div>
 
 ---
