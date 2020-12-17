@@ -10,3 +10,4 @@ _site/
 *~
 .ruby-version
 *.map
+.jekyll-cache/
